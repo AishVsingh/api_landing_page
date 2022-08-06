@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+}
+
+#header {
+  display: flex;
+  user-select: none;
+  justify-content: space-between;
+}
+
+#heading {
+  font-size: 4vw;
+  font-weight: bolder;
+  margin: 3% 0 0 3%;
+  user-select: none;
+}
+
+#graphic-moving-dots-img {
+  width: 12vw;
+}
+
+#graphic-moving-dots {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.section {
+  margin: 0 6% 5% 6%;
+}
+
+#about-body {
+  font-size: 1.2vw;
+}
+
+.sub-heading {
+  font-size: 2vw;
+  font-weight: bolder;
+  margin: 0 0 4% 0;
+  user-select: none;
+}
+
+#features-box {
+  display: flex;
+  user-select: none;
+  margin: 3% 25% 0 25%;
+  justify-content: space-between;
+  font-size: 1.2vw;
+}
+
+.feat-icon {
+  display: inline-block;
+  width: 70%;
+  padding: 0 15% 0 15%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 1vw;
+}
+
+.feat-name {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#feat-about {
+  font-size: 1.2vw;
+  margin: 2% 15% 0 15%;
+  text-align: justify;
+}
+.feat-cont {
+  width: 30%;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10%;
+}
+
+.feat-cont:hover {
+  cursor: pointer;
+  /* z-index: 1;
+  transform: scale(1.1); */
+}
+
+#feature-title {
+  text-align: center;
+}
+
+#feature-title {
+  font-size: 2vw;
+  margin: 0 0 3% 0;
+}
+
+#feature-body {
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2vw;
+  margin: 0 15% 0 15%;
+  text-align: justify;
+}
+
+a{
+  color: white;
+  text-decoration: underline;
+}
