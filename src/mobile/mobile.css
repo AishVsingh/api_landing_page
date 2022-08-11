@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+}
+
+#headerMobile {
+  display: flex;
+  user-select: none;
+  justify-content: space-between;
+}
+
+#headingMobile {
+  font-size: 15vw;
+  font-weight: bolder;
+  margin: 3% 0 0 3%;
+  padding: 20% 0 0 0;
+  user-select: none;
+}
+
+#graphic-moving-dots-img-mobile {
+  width: 80vw;
+}
+
+#graphic-moving-dots-mobile {
+  text-align: right;
+  overflow-x: hidden;
+  padding: 0% 60% 0 0;
+}
+
+.section-mobile {
+  margin: 0 6% 5% 6%;
+}
+
+#about-body-mobile {
+  font-size: 4vw;
+}
+
+.sub-heading-mobile {
+  font-size: 9vw;
+  font-weight: bolder;
+  margin: 0 0 4% 0;
+  user-select: none;
+}
+
+#features-box-mobile {
+  display: flex;
+  user-select: none;
+  margin: 3% 5% 0 5%;
+  justify-content: space-between;
+  font-size: 1.2vw;
+}
+
+.feat-icon-mobile {
+  display: inline-block;
+  width: 50%;
+  padding: 0 15% 0 15%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 1vw;
+}
+
+.feat-cont-mobile{
+  width: 60%;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10%;
+}
+
+.feat-cont-mobile:hover {
+  cursor: pointer;
+  /* z-index: 1;
+  transform: scale(1.1); */
+}
+
+#feature-title-mobile {
+  text-align: center;
+  font-size: 7vw;
+  margin: 0 0 3% 0;
+}
+
+#feature-body-mobile {
+  transition: all 0.3s ease-in-out;
+  font-size: 4vw;
+  margin: 0 3% 0 3%;
+  text-align: justify;
+}

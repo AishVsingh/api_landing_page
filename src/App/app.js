@@ -1,12 +1,13 @@
 // import axios from "axios";
 import React from "react";
 import Home from "../home/home";
+import Mobile from "../mobile/mobile"
 
 function getHome(user) {
   if (window.innerWidth > 600) {
     return <Home/>;
   } else {
-    return <div></div>;
+    return <Mobile/> ;
   }
 }
 
